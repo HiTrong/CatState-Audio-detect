@@ -26,7 +26,7 @@ Các tệp dữ liệu là unique trong "dataset"
 Thư mục "extra" chứa các bản ghi âm bị loại trừ (âm thanh không phải là tiếng meo meo do mèo phát ra) và các chuỗi phát âm gần gũi chưa bị cắt. Nó có thể được sử dụng như một lớp thứ 4.
 
 # 3. Xây dựng mô hình 
-Mời bạn xem file notebook [tại đây!](https://github.com/HiTrong/CatState-Audio-detect/CatStateDetection.ipynb)
+Mời bạn xem file notebook [tại đây!](https://github.com/HiTrong/CatState-Audio-detect/blob/main/CatStateDetection.ipynb)
 
 # 4. Lời kết và tài liệu tham khảo
 Project đã mang lại cho chúng ta cái nhìn về cách tiền xử lý âm thanh cũng như đưa bài toán xử lý âm thanh về xử lý hình ảnh với mô hình Deep Learning (**CNN**). Song còn nhiều khuyết điểm chưa tối ưu trong mô hình nhưng tổng quan lại ta đã có thật nhiều kiến thức hữu ích. Cảm ơn đã đọc đến cuối
