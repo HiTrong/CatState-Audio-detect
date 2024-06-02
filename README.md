@@ -7,7 +7,17 @@
 
 # 1. Tổng quan về Project
 
-Project được thực hiện dựa trên nền tảng Python nhằm tìm hiểu về khám phá cách Deep Learning (Cụ thể là CNN) được áp dụng cho bài toán phân loại dựa trên file âm thanh (Audio). Với mục tiêu là xây dựng một hệ thống có thể phân loại được trạng thái của mèo dựa trên âm thanh **'Meow'** của mèo. Qua đó có thể đoán được mèo đang muốn điều gì cần gì. 
+Project được thực hiện dựa trên nền tảng Python nhằm tìm hiểu về khám phá cách Deep Learning (Cụ thể là ANN và CNN) được áp dụng cho bài toán phân loại dựa trên file âm thanh (Audio). Với mục tiêu là xây dựng một hệ thống có thể phân loại được trạng thái của mèo dựa trên âm thanh **'Meow'** của mèo. Qua đó có thể đoán được mèo đang muốn điều gì cần gì. 
+
+Các bước được xử lí ở trong ANN - Artificial Neural Network
+
+![Ảnh minh họa ANN](./img/ann_dataflow.png)
+
+![Ảnh minh họa ANN](./img/ann_result.png)
+
+Các bước được xử lí ở trong CNN - Convolutional Neural Network
+
+> - Vẫn còn đang nghiên cứu để giải quyết vấn đề Underfitiing!
 
 # 2. Tổng quan về tập dữ liệu
 
@@ -29,7 +39,7 @@ Thư mục "extra" chứa các bản ghi âm bị loại trừ (âm thanh không
 Mời bạn xem file notebook [tại đây!](https://github.com/HiTrong/CatState-Audio-detect/blob/main/CatStateDetection.ipynb)
 
 # 4. Lời kết và tài liệu tham khảo
-Project đã mang lại cho chúng ta cái nhìn về cách tiền xử lý âm thanh cũng như đưa bài toán xử lý âm thanh về xử lý hình ảnh với mô hình Deep Learning (**CNN**). Song còn nhiều khuyết điểm chưa tối ưu trong mô hình nhưng tổng quan lại ta đã có thật nhiều kiến thức hữu ích. Cảm ơn đã đọc đến cuối
+Project đã mang lại cho chúng ta cái nhìn về cách tiền xử lý âm thanh cũng như đưa bài toán xử lý âm thanh về xử lý hình ảnh với mô hình Deep Learning (**ANN và CNN**). Song còn nhiều khuyết điểm chưa tối ưu trong mô hình nhưng tổng quan lại ta đã có thật nhiều kiến thức hữu ích. Cảm ơn đã đọc đến cuối
 
 _TÀI LIỆU THAM KHẢO:_
 - LARXEL. "Cat Meow Classification Dataset." Kaggle, https://www.kaggle.com/datasets/andrewmvd/cat-meow-classification/data.
